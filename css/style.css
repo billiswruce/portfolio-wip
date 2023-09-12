@@ -1,0 +1,104 @@
+/*wrappar social*/
+#socialwrapper {
+    align-self: flex-end;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.fa-instagram, 
+.fa-linkedin {
+   background: white;
+    color: rgb(175, 175, 234);
+    padding: 15px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 7px 7px 0px 5px; 
+}
+
+header {
+    background-color: rgb(205, 205, 242);
+    /*background-size: cover;
+    width: 100vw;*/
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#personlig-bild {
+    max-height: 300px;
+    border-radius: 50%;
+}
+
+#wave {
+    padding-top: 90px;
+    align-self: flex-end;
+}
+
+/*wrappar content-boxarna*/
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#content1, 
+#content2, 
+#content3, 
+#content4 {    
+    border: 3px solid rgb(205, 205, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 50px auto 0 auto;
+    height: 400px;     
+    width: 400px;
+}
+
+footer {
+    color: rgb(104, 104, 212);
+    font-size: 18px;
+    padding: 0 0 10px 13px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    
+}
+
+
+@media screen and (max-width: 960px) {
+
+}
+
+@media screen and (max-width: 767px) {
+	main {    
+		grid-template-columns: 1fr;
+	}
+	
+	#content1, 
+    #content2, 
+    #content3, 
+    #content4 {
+		grid-column: 1;
+	}
+
+}
+
+
+
+
+
+
+
+
