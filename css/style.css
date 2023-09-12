@@ -52,6 +52,8 @@ main {
 #content3, 
 #content4 {    
     border: 3px solid rgb(205, 205, 242);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(104, 104, 212);
     display: flex;
     justify-content: center;
     align-items: center;
